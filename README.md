@@ -32,6 +32,11 @@ I used test set as a training set to obtain soft labels for the training data an
 
 **What I learned from this competition**  
 * Post-processing seems to be one of the winning strategies in a lot of top solutions. Therefore it will be one of my main focus for next NLP competition.  
-* Mono lingual models still outperform multilingual models and therefore should have been part of my solution.
+* Mono lingual models still outperform multilingual models and therefore should have been part of my solution.  
 
+**Files Description**  
+**encoded-435.ipynb:** The training set encoded for XLM-R model.  
+**epoch2.ipynb:** Best model build with first approach.  
+**train-mlm-fin.ipynb:** Best model built with mlm approach.  
+**final-sub.ipynb:** Final ensembled submission.  
 
