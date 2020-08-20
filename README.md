@@ -3,11 +3,11 @@
 Jigsaw is a unit within Google whose one of the main areas of focus is machine learning models that can identify toxicity in online conversations, where toxicity is defined as anything rude, disrespectful or otherwise likely to make someone leave a discussion. In this competition we were tasked with identifying toxic comments from given test set containing comments from 6 different languages while the training set was in english only. The goal was to understand how well a multilingual model trained with only english dataset can be generalized to other languages. You can get more details about this competition by clicking [here](https://www.kaggle.com/c/jigsaw-multilingual-toxic-comment-classification).  
 
 **Public Leaderboard Scores**  
-Best single model score: 0.9425  
-Best score with translated data: 0.9443  
-Best Ensemble (including public kernels): 0.9479  
-Pesudo-labelling: 0.9486  
-Best Submission: 0.9487  
+* Best single model score: 0.9425  
+* Best score with translated data: 0.9443  
+* Best Ensemble (including public kernels): 0.9479  
+* Pesudo-labelling: 0.9486  
+* Best Submission: 0.9487  
 
 **Private Leaderboard score:** 0.9473
 
@@ -31,7 +31,7 @@ Given the public test set, I went with an iterative blending approach, refining 
 I used test set as a training set to obtain soft labels for the training data and then reversed the scores that mismatched the soft labels with hard labels. Then I used these labels to obtain predictions for test set. This step gave me a score of 0.9483 from 0.9479. Later, I added test data to training data again to train the model and finally obtained predictions for test data which resulted in overall score of 0.9487 giving me 42nd position in private leaderboard.
 
 **What I learned from this competition**  
-Post-processing seems to be one of the winning strategies in a lot of top solutions. Therefore it will be one of my main focus for next NLP competition.  
-Mono lingual models still outperform multilingual models and therefore should have been part of my solution.
+* Post-processing seems to be one of the winning strategies in a lot of top solutions. Therefore it will be one of my main focus for next NLP competition.  
+* Mono lingual models still outperform multilingual models and therefore should have been part of my solution.
 
 
