@@ -1,4 +1,4 @@
-# Kaggle Jigsaw Multilingual Toxic Comment Classification 42nd Place Solution  
+# Kaggle Jigsaw Multilingual Toxic Comment Classification Silver Medal Solution  
 **Competition Description**  
 Jigsaw is a subsidiary under Google which emphasizes on providing safer internet to the world. This challenge by Jigsaw involved the use of machine learning models to identify toxicity in online conversations, where toxicity is defined as anything rude, disrespectful or otherwise likely to make someone leave a discussion. In this competition we were tasked with identifying toxic comments from given test set containing comments from 6 different languages while the training set was in english only. The goal was to understand how well a multilingual model trained with only english dataset can be generalized to other languages. You can get more details about this competition by clicking [here](https://www.kaggle.com/c/jigsaw-multilingual-toxic-comment-classification).  
 
